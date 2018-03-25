@@ -13,7 +13,7 @@ class App extends Component {
   }
 
   render() {
-    this.view.innerHTML = `year ! this is - ${this.props.test}`
+    this.view.innerHTML = `yes! this is - ${this.props.test}`
   }
 }
 

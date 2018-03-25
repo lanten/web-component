@@ -1,7 +1,7 @@
 # web-component
 脱离 webpack , 原生实现 web 组件化
 
-> listen , big brother, 这个玩意是一个调研性质的 demo.
+> listen , big brother, 这个玩意儿是一个调研性质的 demo.
 
 ---
 
