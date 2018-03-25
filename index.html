@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <!-- 组件模板 -->
+  <script src="./lib/Component.js"></script>
+
+  <!-- shadow DOM 实现 -->
+  <script src="./components/App.js"></script>
+
+  <!-- template 实现 -->
+  <link rel="import" href="./components/Header.html">
+
+</head>
+
+<body>
+  <!-- 组件的使用必须包含结束标签,否则会出异常 -->
+  <app-header test="ok" onclick="alert(123)"></app-header>
+  <app-content test="content"></app-content>
+</body>
+
+</html>
