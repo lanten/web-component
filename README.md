@@ -3,7 +3,5 @@
 
 ---
 
-只在新版本的 chrome 浏览器中正常运行,
-
-safari 浏览器也只支持 shadow-dom 的方式实现.
+`shadow-dom` 和 `template` s实现，只在 chrome 浏览器中正常运行！
 
